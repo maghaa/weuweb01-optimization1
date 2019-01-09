@@ -1,0 +1,57 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+/*background*/
+
+
+body {background: url(/images/bkg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
+
+
+.uk-container {background-color:#fff;
+border-radius:15px;border:2px solid lightgrey;}
+.tm-main {min-height:900px;}
+
+
+
+.uk-container {background-color:rgba(255,255,255,0.65);}
+/*slut backgrund*/
+
+/*Meny*/
+.tm-navbar {margin-top:10px; background-color:#5D7EB1;border:5px solid white;
+}
+.uk-navbar , .uk-parent a  {border-radius:10px;}
+.uk-navbar-nav > li.uk-active > a {background-color:transparent;}
+
+.uk-navbar-nav > li > a {font-size:16px ;}
+
+.uk-nav-sub li{padding-left:15px;}
+.uk-nav-sub li a:hover{background-color:#fff;border:1px solid #00A8E6}
+.uk-nav-sub li a {padding:5px;}
+
+.uk-navbar li a,.uk-navbar-nav > li.uk-active > a  {color:#fff;}
+.uk-navbar li li a {color:#333;}
+
+/*showcase */
+.tm-headerbar {margin-top:10px;padding-top:0px;margin-bottom:5px;}
+.lof-ass .lof-navigator li img {margin:0px;border:0px}
+
+/*Riddarspelen*/
+.riddare-right {float:right}
+.riddare-left {max-width:600px;}
+.till-boerjan{
+border-radius: 15px;
+float: left;
+padding: 5px;
+text-align: center;
+width: 100px;
+background-color:#fff;}
